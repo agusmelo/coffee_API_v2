@@ -32,7 +32,7 @@ def result(country, variety, aroma, aftertaste, acidity, body, balance, moisture
 
     # Cargamos modelo entrenado
 
-    loaded_model = pickle.load(open('../models/coffee_model.pkl', 'rb')) # rb: read binary
+    loaded_model = pickle.load(open('coffee_model.pkl', 'rb')) # rb: read binary
 
 
     # Pasar los datos al modelo
